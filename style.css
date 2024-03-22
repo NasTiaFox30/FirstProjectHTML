@@ -1,3 +1,54 @@
-h1{
+html{
+    
+}
+body{
+    display: block;
+}
+
+header{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color: darkolivegreen;
+    border-radius: 30px;
+    block-size: 25px;
+    
+}
+#links{
+    margin: 0px;
+    padding: 0px;
+    block-size: 25px;
+
+    padding-inline: 5px;
+    display: flex;
+    justify-content: space-around;  
+    list-style: none;
+    
+    flex-wrap: wrap;
+    align-content: space-around;
+
+    
+}
+
+
+
+#img_fox{
+    width: 300px;
+    height: 450px;
+}
+
+
+
+
+footer{
+    margin-bottom: 0%;
+    display: end;
+    background-color: gray;
+    text-align: left;
 }
