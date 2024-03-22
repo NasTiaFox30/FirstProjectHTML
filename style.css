@@ -1,8 +1,11 @@
 html{
+    margin: 0%;
+    padding: 0%;
     
 }
 body{
-    display: block;
+    margin: 0%;
+    padding: 0%;
 }
 
 header{
@@ -15,6 +18,8 @@ h1{
 }
 
 nav{
+    padding: 2px;
+    margin: 5px;
     background-color: darkolivegreen;
     border-radius: 30px;
     block-size: 25px;
@@ -22,10 +27,9 @@ nav{
 }
 #links{
     margin: 0px;
-    padding: 0px;
     block-size: 25px;
 
-    padding-inline: 5px;
+    padding-inline: 6px;
     display: flex;
     justify-content: space-around;  
     list-style: none;
@@ -34,7 +38,15 @@ nav{
     align-content: space-around;
 
     
+    
 }
+a{
+    color: azure;
+}
+a:hover{
+    color: gray;
+}
+
 
 
 
