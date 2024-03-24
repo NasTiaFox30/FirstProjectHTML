@@ -3,37 +3,34 @@
     padding: 0;
 }
 
-
 body{
     background-color: rgb(188, 242, 188);
 }
-
 header{
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
     
 }
-
-h1{
-    text-align: center;
-}
-
-nav{
+    
+   
+/*Panel nawigacji*/
+#navigation{
     padding: 3px;
     margin: 2px;
-    background-color: darkolivegreen;
-    border-radius: 30px;
+    background-color: rgb(98, 118, 63);
+    border-radius: 10px;
     block-size: 25px ;
-    
-    
-    
 }
-ul#links{
+ul#pages{
     margin: 0 auto;
     padding: 0px;
     block-size: inherit;     /*підлаштовує блок до батьківського розміру контейнера*/
 
-
-    
     display: flex;
     justify-content: space-around;  
     flex-wrap: wrap;
@@ -41,10 +38,10 @@ ul#links{
 
     list-style: none;
 }
-
-#links a{
+ul#pages a{
     color: azure;
     font-size: larger;
+    font-family: Georgia ;
     
 }
 a:hover{
@@ -54,7 +51,7 @@ a:hover{
 
 
 
-
+/*MAIN*/
 p{
     font-family: sans-serif ;
     font-size: medium;
@@ -66,19 +63,23 @@ figure{
     min-width: 100px;
     max-width: 400px;
 
-    margin: auto;       /*поміщає блок посередині*/
-    padding-bottom: 5px;
-    border: 3px dotted white;
+    margin: 5px auto;       /*поміщає блок посередині*/
+    border: 5px double white;
+    border-radius: 10px;
+    overflow: hidden;
 }
-#img_fox{
+img{
     
     inline-size: -webkit-fill-available;
 }
 figcaption{
     font-family: system-ui;
     font-weight: bolder;
-    color: rgb(83, 82, 82);
+    color: rgb(49, 49, 49);
 }
+
+
+
 
 
 
