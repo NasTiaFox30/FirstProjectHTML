@@ -17,17 +17,17 @@ h1{
 }
 
 nav{
-    padding: 5px;
+    padding: 3px;
     margin: 2px;
     background-color: darkolivegreen;
     border-radius: 30px;
-    block-size: 25px;
+    block-size: 25px ;
     
     
     
 }
 ul#links{
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
     block-size: inherit;     /*підлаштовує блок до батьківського розміру контейнера*/
 
@@ -43,6 +43,7 @@ ul#links{
 
 a{
     color: azure;
+    font-size: larger;
     
 }
 a:hover{
@@ -54,21 +55,34 @@ a:hover{
 
 p{
     font-family: sans-serif ;
+    font-size: medium;
 }
 
 
 
-
+figure{
+    width: 350px;
+    margin: auto;       /*поміщає блок посередині*/
+    padding-bottom: 5px;
+    border: 3px dotted white;
+}
 #img_fox{
-    width: 300px;
-    height: 450px;
+    width: 350px;
+    height:auto;
+    
+}
+figcaption{
+    font-family: system-ui;
+    font-weight: bolder;
+    color: rgb(83, 82, 82);
 }
 
 
 
 
 footer p{
-    font-family: 'Franklin Gothic';
+    font-family: monospace;
+    font-weight: 200;
     background-color: darkolivegreen;
     color: azure;
     text-align: left;
