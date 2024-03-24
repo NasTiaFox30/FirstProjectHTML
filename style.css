@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -20,16 +21,19 @@ h1{
    
 /*Panel nawigacji*/
 #navigation{
-    padding: 3px;
+    padding: 6px;
     margin: 2px;
     background-color: rgb(98, 118, 63);
     border-radius: 10px;
-    block-size: 25px ;
+    block-size: 30px ;
+
+    box-sizing: content-box;
 }
 ul#pages{
-    margin: 0 auto;
-    padding: 0px;
-    block-size: inherit;     /*підлаштовує блок до батьківського розміру контейнера*/
+    margin: auto;
+    block-size: inherit;    /*підлаштовує блок до батьківського розміру контейнера*/
+
+
 
     display: flex;
     justify-content: space-around;  
@@ -40,7 +44,7 @@ ul#pages{
 }
 ul#pages a{
     color: azure;
-    font-size: larger;
+    font-size: 20px;
     font-family: Georgia ;
     
 }
@@ -52,6 +56,9 @@ a:hover{
 
 
 /*MAIN*/
+main{
+    margin-block: 20px;
+}
 
 /*Text*/
 main p{
