@@ -58,6 +58,7 @@ a:hover{
 /*MAIN*/
 main{
     margin-block: 20px;
+
 }
 
 /*Text*/
@@ -130,15 +131,21 @@ figcaption{
 }
 
 div.galary{
-    display: flex;
+    display: inline-block;
+    
+}
+
+div#Galary_box{
+    width: -webkit-fill-available;
+    display: inline-flex;
     align-items: center;
-    
-    
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 /*video 3*/
 video{
-    margin: 2px auto;
+    margin: 0 auto;
     min-width: 200px;
     max-width: 600px;
     height: auto;
